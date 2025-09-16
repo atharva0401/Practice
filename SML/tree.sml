@@ -1,4 +1,5 @@
 datatype intTree = Leaf of int 
                     | Node of intTree * intTree
 
-val t = Node(Leaf(1) , Leaf(2));
+datatype stree = Empty
+| Node of stree * string * stree
