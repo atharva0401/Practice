@@ -1,5 +1,2 @@
-datatype intTree = Leaf of int 
-                    | Node of intTree * intTree
-
-datatype stree = Empty
-| Node of stree * string * stree
+datatype 'a tree = Leaf of 'a
+                    | Node of 'a tree * 'a tree
