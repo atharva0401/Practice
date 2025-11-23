@@ -21,7 +21,7 @@ void permutation(string a , int i , int n)
 
 int main()
 {
-    string a = "abc";
-    permutation(a , 0 , 3);
+    string a = "abcd";
+    permutation(a , 0 , 4);
 
 }
