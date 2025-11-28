@@ -10,18 +10,19 @@ int main()
     int m , n , k;
     string s;
     cin >> m >> n >> k;
+    cin.ignore(); // ignoring the new line that remains after inputting m , n , k . otherwise the the first getline will be an empty string and the code will add initial k empty lines.
     while(getline(cin ,s ))
     {
         for(int j = 0; j < k; j++)
         {
-            char a[n*k];
-            for(int i : s)
+            for(char c : s)
             {
                 for(int l = 0 ; l < k; l++)
                 {
-                    
+                    cout << c;
                 }
             }
+            cout << "\n";
         }
 
     }
