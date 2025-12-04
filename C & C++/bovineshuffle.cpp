@@ -20,4 +20,9 @@ int main()
         scanf("%d" , final[i]);
     }
 
+    for(int i = 0 ; i < n; i++)
+    {
+        int c = final[final[final[i]]];
+        printf("%d" , &c);
+    }
 }
