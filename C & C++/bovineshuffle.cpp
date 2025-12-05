@@ -22,7 +22,7 @@ int main()
 
     for(int i = 0 ; i < n; i++)
     {
-        int c = final[final[final[i]]];
+        int c = final[shuffle[shuffle[i]]];
         printf("%d" , &c);
     }
 }
