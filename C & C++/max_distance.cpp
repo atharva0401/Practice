@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -10,7 +10,11 @@ int main()
     int y[n];
     for(int i = 0 ; i < n ; i++)
     {
-        scanf("%d %d",&x[i] , &y[i]);
+        scanf("%d",&x[i]);
+    }
+    for(int i = 0; i < n ; i++)
+    {
+        scanf("%d" , &y[i]);
     }
     int max_distance = 0;
     for(int i = 0 ; i < n; i++)
