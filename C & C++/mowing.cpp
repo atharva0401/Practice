@@ -17,7 +17,7 @@ int main()
     int x = 1000000;
     for(int i = 0 ; i < n ; i++)
     {
-        scanf(" %c %d" , &direction , &step);
+        scanf(" %c %d" , &direction , &step); // the space in the front skips any leftover newlines , or leading tabs and whitespaces
         for(int j = 0 ; j < step ; j++)
         {
             if(direction == 'N')
